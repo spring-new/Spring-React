@@ -1,0 +1,20 @@
+package rule
+import com.bcm.entity.*
+import com.bcm.entity.DrlResult//可以导入类，静态方法
+
+rule "rule1"
+
+no-loop true
+when
+       $person : Person ()
+       $car : Car($person.age > 30)
+    then
+        DrlResult   result1= new DrlResult();
+        result1.setStaute("1");
+        $car.setDiscount(80);
+        result1.setCar($car);
+        update($car);
+        insert(result1);
+        System.out.println("rule1规则触发");
+
+end

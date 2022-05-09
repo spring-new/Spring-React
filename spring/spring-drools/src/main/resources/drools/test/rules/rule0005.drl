@@ -1,0 +1,21 @@
+package rules
+import com.bcm.entity.*
+import com.bcm.entity.DrlResult//可以导入类，静态方法
+
+rule "rule0005"
+
+no-loop true
+when
+       $person : Person ()
+       $car : Car($person.age >20  && $car.age>20 &&  $person.name memberOf ["李四","小米"])
+    then
+        DrlResult   result1= new DrlResult();
+        result1.setStaute("true");
+        result1.setKey("rule0005");
+        $car.setDiscount(80);
+        result1.setCar($car);
+        update($car);
+        insert(result1);
+        System.out.println("rule0005规则触发");
+
+end

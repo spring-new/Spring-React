@@ -1,0 +1,15 @@
+package droo
+import com.bcm.entity.Car//可以导入类，静态方法
+import com.bcm.entity.Person
+
+//rule "DRL10003"
+//no-loop true
+//when
+//       $car : Car(20<=discount, discount<100)
+//    then
+//            $car.setDiscount(10003);
+///*
+//        $car.setName("   xxxxxxxxxxxxpppppppp");
+//*/
+//        update($car)
+//    end

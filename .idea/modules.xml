@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-React.iml" filepath="$PROJECT_DIR$/.idea/Spring-React.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/data-emtity/data-emtity.iml" filepath="$PROJECT_DIR$/spring/data-emtity/data-emtity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/react/demo/demo.iml" filepath="$PROJECT_DIR$/react/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/mid-redis/mid-redis.iml" filepath="$PROJECT_DIR$/spring/mid-redis/mid-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/react/react.iml" filepath="$PROJECT_DIR$/react/react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-drools/spring-drools.iml" filepath="$PROJECT_DIR$/spring/spring-drools/spring-drools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-service/spring-service.iml" filepath="$PROJECT_DIR$/spring/spring-service/spring-service.iml" />
+    </modules>
+  </component>
+</project>

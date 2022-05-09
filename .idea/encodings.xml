@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring/data-emtity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/data-emtity/src/main/java/java/spring/entity/AbstractSNGenerator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/data-emtity/src/main/java/java/spring/entity/Emp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/mid-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-drools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-drools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-service/src/main/java/ide/eclipse/entity/time.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-service/src/main/java/ide/eclipse/service/SignReNewMarkBL.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-service/src/main/java/ide/eclipse/service/reflect.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-service/src/main/java/ide/eclipse/xml/XmlUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

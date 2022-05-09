@@ -1,0 +1,14 @@
+package droo
+import com.bcm.entity.Car//可以导入类，静态方法
+import com.bcm.entity.Person
+
+//rule "DRL10004"
+//no-loop true
+//when
+//       $car : Car( name contains []"A"|| name contains "H")
+//
+//    then
+//        $car.setName("tb10004");
+//        update($car)
+//         System.out.println("规则TB0004触发");
+//    end

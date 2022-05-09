@@ -1,0 +1,13 @@
+package droo
+import com.bcm.entity.Car//可以导入类，静态方法
+import com.bcm.entity.Person
+
+//rule "DRL10002"
+//no-loop true
+//when
+//       $car : Car( discount <60)
+//
+//    then
+//        $car.setAe("rule3 1002");
+//        update($car)
+//    end

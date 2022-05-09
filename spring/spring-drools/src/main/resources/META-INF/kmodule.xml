@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+
+    <!--<?xml version="1.0" encoding="utf-8" ?>
+    <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">-->
+    <!--    <kbase name="rules" >-->
+    <!--        <ksession name="all-rules"></ksession>-->
+    <!--    </kbase>-->
+
+    <!--
+        drools/test/tb/rule0003.drl
+    -->
+    <kbase name="rule" packages="drools.test.rule">
+        <ksession name="rule"/>
+    </kbase>
+    <kbase name="rules" packages="drools.test.rules">
+        <ksession name="rules"/>
+    </kbase>
+    <kbase name="test" packages="drools.test">
+        <ksession name="test"/>
+    </kbase>
+    <!--    GT 高铁  GZ 贵州  gz001 贵州高铁的高铁名称规则包 -->
+    <kbase name="gz001" packages="drools.gt.gz001">
+        <ksession name="gz001"/>
+    </kbase>
+    <kbase name="gz002" packages="drools.gt.gz001">
+        <ksession name="gz002"/>
+    </kbase>
+<!--
+    只会匹配这个包下的drl文件，不会匹配这个包下的子包的drl
+-->
+    <kbase name="drools" packages="drools">
+        <ksession name="drools"/>
+    </kbase>
+
+</kmodule>
